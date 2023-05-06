@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    
+  }
+  
+  header {
+    
+    /* color: black; */
+    /* margin:0px; */
+    /* width:100%; */
+    /* height: auto;
+    width:80%;
+    border: 0px;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position:aboslute;
+    left: 0;
+    right: 0; */
+
+
+
+  }
+  
+  h2 { 
+    color:rgb(70, 62, 62);
+}
+
+  /* 
+  What happens when we set the display property to flex? 
+  TODO: Gives you the ability to "use" flexbox.
+  Sets the container to flex.
+  Allows for the container to be dynamic, changing child elements width base on the size of the window.
+  */
+  nav {
+    display: flex;
+    justify-content:center;
+
+  }
+  
+  nav a {
+    color: #000000;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+   
+  }
+  
+  #logo {
+    /* background-image: url(“headerpurple.jpg”); */
+    /* display:center;
+    width: 100%;
+    min-height: 200px;  
+    display:block;
+    margin:0 auto; */
+    background-color:yellow;
+    width: 500px;
+    height: 300px;
+    margin:auto;
+    text-align:center;
+    align-items: center;
+    border-radius: 50%;
+   
+
+     
+    }
+  /* 
+  What is the flex-wrap property? 
+  TODO: Any elements that would be pushed off-screen are instead "Pushed" to a new row instead.
+  Allows any container within it stacked to avoid side scrolling
+  */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 6;
+    padding: 17px;
+    text-align: center;
+  }
+  
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  /* 
+  What does the justify-content property do? 
+  TODO: center: spreads content evenly o the row.
+  Content is formatted differntly based on the value.
+  */
+  .products {
+    flex: 6;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+  }
+  
+  /* 
+  What is the flex property a shorthand property for? 
+  What is it doing here? 
+  TODO: flex contains: width/basis, grow, shrink flex-grow, flex-shrink, flex-basis
+  minimum width is 400px, don't grow don't shrink
+  */
+  .card {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 0px;
+    flex: 0 0 400px;
+
+  }
+  
+  .card header {
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 35%;
+  }
+  
+  /* 
+  What does the flex-direction property define?
+  What is it doing here? 
+  TODO: determine axis whether it is going column (up) or horizontal
+  Column means main axis is up and down 
+  */
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,133 @@
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    
+  }
+h1 {
+    font-size: 50px;
+    margin-left: -580px;
+    margin-top: -72px;
+
+}
+h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+h4{
+    font-size:15px;
+    font-family: sans-serif;
+
+}
+  
+
+/* .container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+  } */
+  
+  .information {
+    width: 40em; 
+    
+  }
+  
+  .avatar {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content:right;
+
+  }
+  
+    nav a {
+    color: #000000;
+    padding: 14px 20px;
+    text-decoration: none;
+   
+   
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    text-align:center;
+    justify-content: center;
+
+  }  
+
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    color: #000000;
+  }
+  
+    .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+     margin:100px; 
+  } 
+  
+  /* .card img {
+    width: 25%;
+    margin-bottom: 10px; 
+  }  */
+   
+.contactme {
+    text-align:center;
+
+}
+  
+.media {
+   
+    display: flex;
+    justify-content: center;
+
+}
+.resize {
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
+/* Media query for smaller screens */
+ @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+    }
+  
+    .card img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 769px) {
+    .card img {
+      width: 48%; 
+    }
+  }  
