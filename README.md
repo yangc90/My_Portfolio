@@ -7,6 +7,7 @@ About me section shows image on my avatar and information about me.
 When clicking on portfolio link it will direct you to this section of my work and what services I provide. When clicking on each picture a webpage will deploy of my work.
 ![contactmefooter](https://github.com/yangc90/My_Portfolio/assets/129198313/fb7eb8c5-8a04-4195-bb49-b20adfd91cd4)
 This screenshot shows an image of the contact me section, when clicking on each image it will bring you to each site and where you can contact me along with my footer.
+
 ![mediaquery](https://github.com/yangc90/My_Portfolio/assets/129198313/f11e337d-09f3-4274-b390-62d2d81d7920)
 Last image shows media query for my page. 
 
